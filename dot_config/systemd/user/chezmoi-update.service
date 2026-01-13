@@ -1,0 +1,6 @@
+[Unit]
+Description=chezmoi update (pull + apply dotfiles)
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/chezmoi update
