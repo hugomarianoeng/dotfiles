@@ -1,0 +1,6 @@
+e#!/bin/sh
+
+# Garante o teclado BR antes de abrir o ambiente gráfico
+setxkbmap -model abnt2 -layout br -variant abnt2 &
+
+exec awesome
